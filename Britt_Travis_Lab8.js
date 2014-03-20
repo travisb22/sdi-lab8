@@ -24,10 +24,15 @@ var emailValidator = function(email) {
 		
 	}
 	
-	if (spaceCheck > 0)
+	if (spaceCheck > 0) {
 		
-		console.log("Please remove all the spaces in your email.")
+		console.log("Please remove all the spaces in your email.");
+		
+	}
 
+	if(periodPosition > 1)
+	
+		console.log("There is a period in the wrong position please try again.")
 //return returnSymbole;
 
 };

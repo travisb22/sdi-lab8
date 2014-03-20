@@ -53,14 +53,15 @@ var charReturn = emailValidator(email);*/
 
 //Problem #2
 
-var name = "John Marry Bob";
+var name = "Bob John Alisa";
 
-var punctuationPlacement = function(name) {
+var punctuationChanger = function(name) {
 	
-	var newSpace = theNewSpace.split(" ");
-		console.log(newSpace);
-//var firstPunctuation = newCommas(",");
-//var secondPunctuation = newBackSlash("/")
+	var firstPunctuation = name.split(" ").join("/");
+	console.log(firstPunctuation)
+	
+	var secondPunctuation = name.split(" ").join(",");
+	console.log(lastPunctuation)
 	
 }
 
